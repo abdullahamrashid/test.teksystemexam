@@ -12,7 +12,7 @@ import io.restassured.response.Response;
 public class TekSystemAPITest {
 
 	@Test
-	public void positiveAPI() {
+	public void positive_API() {
 		Response response= RestAssured.get("https://restcountries.com/v3.1/capital/rome");
 
 		System.out.println(response.getBody().asString());
@@ -28,7 +28,7 @@ public class TekSystemAPITest {
 
 	}
 	@Test
-	public void negativeAPI() {
+	public void negative_API() {
 		Response response= RestAssured.get("https://restcountries.com/v3.1/capital/paris");
 
 		System.out.println(response.getBody().asString());
@@ -39,7 +39,7 @@ public class TekSystemAPITest {
 
 	}
 	@Test
-	public void bddAPITest() {
+	public void bdd_APITest() {
 
 		given().
 		when().
