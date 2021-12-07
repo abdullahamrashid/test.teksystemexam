@@ -5,7 +5,7 @@
     <classes>
       <class name="api.test.teksystem.TekSystemAPITest">
         <methods>
-          <include name="negativeAPI"/>
+          <include name="negative_API"/>
         </methods>
       </class> <!-- api.test.teksystem.TekSystemAPITest -->
     </classes>

@@ -1,4 +1,4 @@
-package api.test.teksystem;
+package test.teksystemexamination;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -12,7 +12,7 @@ import io.restassured.response.Response;
 public class TekSystemAPITest {
 
 	@Test
-	public void positive_API() {
+	public void positiveAPI() {
 		Response response= RestAssured.get("https://restcountries.com/v3.1/capital/rome");
 
 		System.out.println(response.getBody().asString());
@@ -28,7 +28,7 @@ public class TekSystemAPITest {
 
 	}
 	@Test
-	public void negative_API() {
+	public void negativeAPI() {
 		Response response= RestAssured.get("https://restcountries.com/v3.1/capital/paris");
 
 		System.out.println(response.getBody().asString());
@@ -39,7 +39,7 @@ public class TekSystemAPITest {
 
 	}
 	@Test
-	public void bdd_APITest() {
+	public void bddAPITest() {
 
 		given().
 		when().

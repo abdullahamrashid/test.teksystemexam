@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-06T15:24:50 EST" name="Default suite" finished-at="2021-12-06T15:24:55 EST" duration-ms="4962">
+  <suite started-at="2021-12-06T18:51:56 EST" name="Default suite" finished-at="2021-12-06T18:51:59 EST" duration-ms="3083">
     <groups>
     </groups>
-    <test started-at="2021-12-06T15:24:50 EST" name="Default test" finished-at="2021-12-06T15:24:55 EST" duration-ms="4962">
+    <test started-at="2021-12-06T18:51:56 EST" name="Default test" finished-at="2021-12-06T18:51:59 EST" duration-ms="3083">
       <class name="api.test.teksystem.TekSystemAPITest">
-        <test-method signature="bddAPITest()[pri:0, instance:api.test.teksystem.TekSystemAPITest@780cb77]" started-at="2021-12-06T15:24:50 EST" name="bddAPITest" finished-at="2021-12-06T15:24:55 EST" duration-ms="4434" status="PASS">
+        <test-method signature="bdd_APITest()[pri:0, instance:api.test.teksystem.TekSystemAPITest@780cb77]" started-at="2021-12-06T18:51:56 EST" name="bdd_APITest" finished-at="2021-12-06T18:51:58 EST" duration-ms="2759" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- bddAPITest -->
-        <test-method signature="negativeAPI()[pri:0, instance:api.test.teksystem.TekSystemAPITest@780cb77]" started-at="2021-12-06T15:24:55 EST" name="negativeAPI" finished-at="2021-12-06T15:24:55 EST" duration-ms="210" status="FAIL">
+        </test-method> <!-- bdd_APITest -->
+        <test-method signature="negative_API()[pri:0, instance:api.test.teksystem.TekSystemAPITest@780cb77]" started-at="2021-12-06T18:51:58 EST" name="negative_API" finished-at="2021-12-06T18:51:59 EST" duration-ms="122" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [201] but found [200]]]>
@@ -24,7 +24,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 at org.testng.Assert.assertEquals(Assert.java:122)
 at org.testng.Assert.assertEquals(Assert.java:907)
 at org.testng.Assert.assertEquals(Assert.java:917)
-at api.test.teksystem.TekSystemAPITest.negativeAPI(TekSystemAPITest.java:37)
+at api.test.teksystem.TekSystemAPITest.negative_API(TekSystemAPITest.java:37)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -58,11 +58,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- negativeAPI -->
-        <test-method signature="positiveAPI()[pri:0, instance:api.test.teksystem.TekSystemAPITest@780cb77]" started-at="2021-12-06T15:24:55 EST" name="positiveAPI" finished-at="2021-12-06T15:24:55 EST" duration-ms="115" status="PASS">
+        </test-method> <!-- negative_API -->
+        <test-method signature="positive_API()[pri:0, instance:api.test.teksystem.TekSystemAPITest@780cb77]" started-at="2021-12-06T18:51:59 EST" name="positive_API" finished-at="2021-12-06T18:51:59 EST" duration-ms="96" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- positiveAPI -->
+        </test-method> <!-- positive_API -->
       </class> <!-- api.test.teksystem.TekSystemAPITest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
